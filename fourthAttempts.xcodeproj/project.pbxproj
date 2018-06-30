@@ -13,6 +13,10 @@
 		E4066EC820E4EA87005F2590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4066EC720E4EA87005F2590 /* Assets.xcassets */; };
 		E4066ECB20E4EA87005F2590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4066EC920E4EA87005F2590 /* LaunchScreen.storyboard */; };
 		E4066ECE20E4EA87005F2590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4066ECD20E4EA87005F2590 /* main.m */; };
+		E4066ED620E4F8FA005F2590 /* ourClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E4066ED520E4F8FA005F2590 /* ourClass.m */; };
+		E40712EC20E6368D00E5D2A3 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40712EB20E6368D00E5D2A3 /* RootTableViewController.m */; };
+		E40712EF20E636B600E5D2A3 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40712EE20E636B600E5D2A3 /* SecondTableViewController.m */; };
+		E442E17F20E786FC001C6778 /* lastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E442E17E20E786FC001C6778 /* lastViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		E4066ECA20E4EA87005F2590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4066ECC20E4EA87005F2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4066ECD20E4EA87005F2590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4066ED420E4F8FA005F2590 /* ourClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ourClass.h; sourceTree = "<group>"; };
+		E4066ED520E4F8FA005F2590 /* ourClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ourClass.m; sourceTree = "<group>"; };
+		E40712EA20E6368D00E5D2A3 /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		E40712EB20E6368D00E5D2A3 /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		E40712ED20E636B600E5D2A3 /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		E40712EE20E636B600E5D2A3 /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		E442E17D20E786FC001C6778 /* lastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lastViewController.h; sourceTree = "<group>"; };
+		E442E17E20E786FC001C6778 /* lastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lastViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +75,18 @@
 				E4066EC120E4EA87005F2590 /* ViewController.h */,
 				E4066EC220E4EA87005F2590 /* ViewController.m */,
 				E4066EC420E4EA87005F2590 /* Main.storyboard */,
+				E442E17D20E786FC001C6778 /* lastViewController.h */,
+				E442E17E20E786FC001C6778 /* lastViewController.m */,
+				E4066ED420E4F8FA005F2590 /* ourClass.h */,
+				E4066ED520E4F8FA005F2590 /* ourClass.m */,
 				E4066EC720E4EA87005F2590 /* Assets.xcassets */,
 				E4066EC920E4EA87005F2590 /* LaunchScreen.storyboard */,
 				E4066ECC20E4EA87005F2590 /* Info.plist */,
 				E4066ECD20E4EA87005F2590 /* main.m */,
+				E40712EA20E6368D00E5D2A3 /* RootTableViewController.h */,
+				E40712EB20E6368D00E5D2A3 /* RootTableViewController.m */,
+				E40712ED20E636B600E5D2A3 /* SecondTableViewController.h */,
+				E40712EE20E636B600E5D2A3 /* SecondTableViewController.m */,
 			);
 			path = fourthAttempts;
 			sourceTree = "<group>";
@@ -142,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40712EC20E6368D00E5D2A3 /* RootTableViewController.m in Sources */,
 				E4066EC320E4EA87005F2590 /* ViewController.m in Sources */,
+				E442E17F20E786FC001C6778 /* lastViewController.m in Sources */,
+				E4066ED620E4F8FA005F2590 /* ourClass.m in Sources */,
 				E4066ECE20E4EA87005F2590 /* main.m in Sources */,
 				E4066EC020E4EA87005F2590 /* AppDelegate.m in Sources */,
+				E40712EF20E636B600E5D2A3 /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fourthAttempts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.fourthAttempts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fourthAttempts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.fourthAttempts;
 				PRODUCT_NAME = "$(TARGET_NAME)";

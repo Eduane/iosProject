@@ -7,9 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ourClass.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<UITextFieldDelegate,UITextViewDelegate>
+
+@property(nonatomic,strong)ourClass *ourObject;
+@property(nonatomic,weak)IBOutlet UILabel *titleLabel;
+@property(nonatomic,weak)IBOutlet UITextField *nameTextField;
+@property(nonatomic,weak)IBOutlet UILabel*titleLabel1;
+@property(nonatomic,weak)IBOutlet UITextField *nameTextField1;
+@property(nonatomic,weak)IBOutlet UIButton *button;
+@property(nonatomic,weak)IBOutlet UIStepper *stepper;
+@property(nonatomic,weak)IBOutlet UILabel *ratingValue;
 
 
+
+-(IBAction)stepperValueChanged:(id)sender;
+
+-(void)saveOurObject;
 @end
 
